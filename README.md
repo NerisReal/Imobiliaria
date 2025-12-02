@@ -3,7 +3,7 @@
 <h3> Projeto Academico - Faculdade Cruzeiro do Sul </h3>
 <table border="z" cellpadding="0">
 </tr>
-  <td><strong>imobiliariaCreateTable</td>
+  <td><strong>Gestao Imobiliaria</td>
   </table>
   
  Sistema de Gestão Imobiliária - AZR
