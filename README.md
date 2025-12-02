@@ -28,5 +28,4 @@ O sistema possui 5 tabelas principais:
 ### Passos para Execução
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/imobiliaria-azr-sql.git
-cd imobiliaria-azr-sql
+git clone (https://github.com/NerisReal/Imobiliaria/blob/main/imobiliariaCreateTable.sql)
