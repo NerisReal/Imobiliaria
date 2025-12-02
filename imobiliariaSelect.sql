@@ -1,4 +1,3 @@
--- 1. Consulta básica
 SELECT 
     i.id_imovel,
     i.tipo_imovel,
@@ -10,7 +9,6 @@ FROM imovel i
 INNER JOIN proprietario p ON i.id_proprietario = p.id_proprietario
 ORDER BY i.valor DESC;
 
------Consulta com filtros
 SELECT 
     i.id_imovel,
     i.tipo_imovel,
@@ -24,7 +22,6 @@ AND i.id_imovel NOT IN (
 )
 ORDER BY i.tipo_imovel, i.valor;
 
--- 3. Consulta com JOIN múltiplo
 SELECT 
     n.tipo_negocio,
     n.data,
