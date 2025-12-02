@@ -4,8 +4,6 @@ Create Table proprietario(
     telefone TEXT(15) NOT NULL
 );
 
-----imovel-----
-
 Create table imovel(
     id_imovel INTEGER PRIMARY KEY AUTOINCREMENT,
     endereco TEXT(500),
@@ -16,8 +14,6 @@ Create table imovel(
     FOREIGN KEY (id_proprietario) REFERENCES proprietario(id_proprietario)
 );
 
------cliente----
-
 Create table cliente(
     id_cliente INTEGER PRIMARY KEY AUTOINCREMENT,
     nome TEXT(100) NOT NULL,
@@ -26,16 +22,12 @@ Create table cliente(
     tipo_negocio TEXT(100)
 );
 
-----corretor-----
-
 Create Table corretor(
     id_corretor INTEGER PRIMARY KEY AUTOINCREMENT,
     nome TEXT(100) NOT NULL,
     creci INTEGER NOT NULL,
     telefone TEXT(15) NOT NULL
 );
-
------negocio-----
 
 Create table negocio(
     tipo_negocio TEXT(200),
